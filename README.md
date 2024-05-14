@@ -5,7 +5,11 @@ Es una práctica del uso de LACCHAIN EOSIO para probar el despliegue de smart co
 - Usaré la documentación para saber más: https://developers.eos.io/welcome/latest/welcome-to-eosio/index
 - Me informare usando los recursos de EOSIO: https://training.eos.io/
 ## Procedimiento
-1. Usar la LACchain EOSIO en local para probar los smart contract desarrollados
+1. Usar la eosio en local para probar los smart contract desarrollados
+   
    - Smart Contracts:
-     - Visualización de datos
-     - Modificación de datos
+     1. Hello World
+     2. Permisos para ejecutar un smart contract
+     3. Tic tac toe
+     4. Visualización de datos
+     5. Modificación de datos
