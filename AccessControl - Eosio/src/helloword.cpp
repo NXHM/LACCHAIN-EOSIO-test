@@ -17,11 +17,7 @@ CONTRACT helloword : public contract {
     }
     ACTION hello_by_smart_contract_owner(name user){
         //_self es un simil
-        if(has_auth(get_self())){// retorna falso, si no es el , no termina la ejecución
-        // se solicita el permiso del dueño del smart contract no del usuario
-            print("Hello,",user);
-        }else{
-            print("Hello, stranger...");
-        }
+        require_auth(get_self())// se solicita el permiso del dueño del smart contract no del usuario
+        print("Hello,",user,"... the owner of this smart contract is greeting you!");
     }
 };
